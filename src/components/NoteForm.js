@@ -19,8 +19,8 @@ const NoteForm = () => {
     console.log('use effect notes', notes)
     db = indexedDB.conn();
     const storedNotes = fetchData();
-    console.log('value of stored notes is', storedNotes);
-    setNotes(storedNotes);   
+    //console.log('setting notes', storedNotes);
+    //setNotes(storedNotes);   
   },[]);
   
   // Formik form with validation 
@@ -75,9 +75,9 @@ const NoteForm = () => {
           cursor.continue();
         } 
       };
-      console.log('returning', storedNotes)
-      return storedNotes;
-      //setNotes(storedNotes)
+      console.log('setting notes', storedNotes)
+      //return storedNotes;
+      setNotes(storedNotes)
     };
     
   };

@@ -59,6 +59,7 @@ function NoteList(props) {
   let noteItems = null;
 
   if (Array.isArray(notesList) && notesList.length > 0) {
+    console.log('mapping')
     noteItems = notesList.map((note) =>
     <NoteItem key={note.id.toString()} value={note} />);
   }
