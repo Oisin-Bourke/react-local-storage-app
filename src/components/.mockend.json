@@ -1,0 +1,7 @@
+{
+    "notes" : [
+        { "id": 1, "title": "Shopping", "body": "Get this", "date": 0 },
+        { "id": 2, "title": "Sport", "body": "Get that!", "date": 0 },
+        { "id": 2, "title": "Cooking", "body": "Whatever", "date": 0 }
+    ]
+}

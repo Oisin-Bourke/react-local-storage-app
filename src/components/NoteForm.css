@@ -1,0 +1,12 @@
+.container {
+    max-width: 400px;
+    margin-top: 24px;
+}
+
+.container form {
+    padding: 8px;
+}
+
+.container button {
+    margin-top: 8px;
+}
